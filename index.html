@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe de Autor_Abril Gallegos Largo "E"</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="cafe.css">
+    <link rel="shortcut icon" href="coffee.ico">
+    <style>
+        @media (min-width: 992px) {
+            .img-cafe-responsive {
+                max-width: 350px;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .img-cafe-responsive {
+                max-width: 100%;
+            }
+        }
+    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="coffee_2.ico" width="30" height="30" alt="Maquina de cafe">
+            </a>
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#mapa">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#stripe">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="acercade.html">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column p-5">
+            <h1>Cafe de Autor</h1>
+            <p>El mejor cafe de la ciudad</p>
+            <button class="btn btn-primary">Conoce más</button>
+        </div>
+    </header>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sn-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Campos de Cultivo" class="cover cover-small"
+                            style="background-image:url(agricultura.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Cultivo ecológico responsable</h5>
+                            <p class="card-text">
+                                Nuestro objetivo es poder erradicar o reducir, en la medida de lo posible, el uso
+                                desmedido
+                                de
+                                pesticidas utilizados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sn-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Campo de cultivo con un tractor" class="cover cover-small"
+                            style="background-image:url(Comercio.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Comercio justo</h5>
+                            <p class="card-text">
+                                El café de comercio justo apoya a productores con precios dignos y prácticas
+                                sostenibles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sn-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div title="Corazón dentro de una taza de cafe" class="cover cover-small"
+                            style="background-image:url(pasion.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Pasión sobre el café</h5>
+                            <p class="card-text">
+                                La pasión por el café es el arte de saborear cada aroma, cada historia y cada instante
+                                que
+                                despierta en una taza.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-5 d-flex justify-content-center">
+                    <img src="time.svg" alt="Un tiempo para tomar cafe" class="img-fluid img-cafe-responsive w-100"
+                        style="max-width:350px;">
+                </div>
+
+                <div class="col-12 col-md-7 col-lg-7 d-flex flex-column justify-content-center">
+                    <h3 class="mb-2" style="font-size:2rem;font-weight:bold;">Siempre hay tiempo para una taza de Café
+                    </h3>
+                    <p class="mb-2">Ordena tu bolsa de café a domicilio o busca tu Cafe de Autor más cercano</p>
+                    <a href="#mapa">Ir al mapa</a>
+                </div>
+            </div>
+
+            <form action="">
+                <label for="email">Correo electrónico</label>
+                <div class="d-flex">
+                    <div class="flex-fill mr-2">
+                        <input type="email" id="email" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Tira de Productos-->
+    <section>
+        <div class="container mt-5 mb-5" id="stripe">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div title="Expresso" class=" cover cover-small" style="background-image: url(expreso.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Expresso</h5>
+                            <span class="badge badge-info">$36.76 MXN</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="Frappé" class=" cover cover-small" style="background-image: url(frappe.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frappé</h5>
+                            <span class="badge badge-info">$91.99 MXN </span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="capuccino" class=" cover cover-small" style="background-image: url(capuchino.jpg);">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Capuccino</h5>
+                            <span class="badge badge-info">$73.52 MXN</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div title="café americano" class=" cover cover-small"
+                            style="background-image: url(americano.jpg);"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <span class="badge badge-info">$55.16 MXN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5 " id="mapa">
+            <h4>Aquí nos vemos:</h4>
+            <p>Mirador Cerro De San Miguel</p>
+            <div class="responsive-iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1887.2017059750033!2d-98.4393271!3d18.9135298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfb463189cdf47%3A0x56da44ed84edbeec!2sMirador%20Cerro%20De%20San%20Miguel!5e0!3m2!1ses-419!2smx!4v1759808286566!5m2!1ses-419!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>"width="600" height="450" style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
+</body>
+
+</html>
